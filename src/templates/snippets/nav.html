@@ -1,11 +1,10 @@
 <div class="container">
     <div class='row nav-bar'>
         <div class='col-sm-12 text-center'>
-            <h1>donteverforget.io</h1>
-            <a class="navbar-link" href='{% url 'home' %}'>Home</a>
-            <a  class="navbar-link" href='{% url "todo:list" %}'>ToDo</a>
-            <a class="navbar-link" href="https://github.com/christiaanrr" target="_blank">Github</a>
-            <a class="navbar-link" href="https://www.linkedin.com/in/christian-rodriguez-967575124/" target="_blank">LinkedIn</a>
+            <h1 class="nav-header">donteverforget.io</h1>
+            <a class="navbar-link" href='{% url 'home' %}'>home</a>
+            <a class="navbar-link" href='{% url 'todo:list' %}'>todo</a>
+            <a class="navbar-link" href='{% url 'courses:list' %}'>courses</a>
             <hr />
             {#        {% if request.user.is_authenticated %}#}
             {#            <a href='{% url 'todo:list' %}'>ToDo</a>#}

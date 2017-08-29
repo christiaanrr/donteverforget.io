@@ -1,0 +1,23 @@
+{% extends 'base.html' %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{% block title %}Course List{% endblock %}</title>
+</head>
+<body>
+{% block content %}
+    <h1>Course List</h1>
+    {% for obj in courses_list %}
+        <div class="row">
+            <div class="col-sm-12 todo">
+                <p class="lead">{{ obj.name }}</p>
+                <p><b>{{ obj.subject }}</b></p>
+                <p>Term: <i>{{ obj.term }}</i></p>
+                <p>Description: {{ obj.description }}<button type="button" class="btn btn-info float-right">Edit</button></p>
+            </div>
+        </div>
+    {% endfor %}
+{% endblock %}
+</body>
+</html>

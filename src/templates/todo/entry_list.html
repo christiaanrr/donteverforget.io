@@ -3,13 +3,22 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>{% block title %}To Do's{% endblock %}</title>
+    <title>{% block title %}To Do List{% endblock %}</title>
 </head>
 <body>
 {% block content %}
-    <h1>To Do</h1>
-    {% for obj in object_list %}
-        {{ obj }}
+    <h1>To Do List</h1>
+    {% for obj in todo_list %}
+        <div class="row">
+            <div class="col-sm-12 todo">
+                <p class="lead">{{ obj }}</p>
+                <p><b>{{ obj.course }}</b></p>
+                <p>Due Date: <i>{{ obj.due_date }}</i></p>
+                <p>Description: {{ obj.description }}</p>
+                <p><button type="button" class="btn btn-success">Completed</button>
+                <button type="button" class="btn-sm btn-danger float-right">Delete</button></p>
+            </div>
+        </div>
     {% endfor %}
 {% endblock %}
 </body>

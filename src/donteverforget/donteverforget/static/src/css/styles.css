@@ -1,6 +1,27 @@
 /******************************
 LAYOUT
 *******************************/
+html,
+body {
+    height: 100%;
+}
+.wrapper {
+    min-height: 100%;
+    height: auto !important;
+    /* Negative indent footer by its height */
+    margin: 0 auto -110px;
+    /* Pad bottom by footer height */
+}
+
+.wrapper:after {
+    content: "";
+    display: block;
+}
+
+footer, .wrapper:after {
+    height: 110px;
+}
+
 .nav-bar {
     margin-top: 30px;
 }
@@ -9,10 +30,29 @@ LAYOUT
     margin-top: 20px;
 }
 
+.todo {
+    box-shadow: 2px 2px 1px black;
+    border: 1px solid #cccccc;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 15px 20px;
+}
 
 /******************************
 NAVBAR
 *******************************/
 .navbar-link {
     margin: 0 5px;
+}
+
+
+
+/******************************
+MEDIA QUERIES
+*******************************/
+
+@media (max-width: 320px) {
+    .nav-header {
+        font-size: 2.2em;
+    }
 }

@@ -7,13 +7,17 @@
 <!-- CSS BOOSTRAP -->
     <link rel="stylesheet" href="{% static 'src/css/bootstrap.min.css' %}">
     <link rel="stylesheet" href="{% static 'src/css/styles.css' %}">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
 <!-- NAVBAR -->{% include 'snippets/nav.html' %}<!-- END NAVBAR -->
-<div class="container main-content">
-    {% block content %}
-    {% endblock %}
+<div class="wrapper">
+    <div class="container main-content">
+        {% block content %}
+        {% endblock %}
+    </div>
 </div>
+<!-- FOOTER -->{% include 'snippets/footer.html' %}<!-- END FOOTER -->
 <!-- JS BOOTSTRAP -->
 <script src="{% static 'src/js/tether.min.js' %}"></script>
 <script src="{% static 'src/js/jquery.min.js' %}"></script>
