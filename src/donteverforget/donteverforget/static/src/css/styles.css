@@ -1,23 +1,18 @@
 /******************************
 LAYOUT
 *******************************/
+.nav-bar {
+    margin-top: 30px;
+}
+
 .main-content {
-    margin-top: 90px;
+    margin-top: 20px;
 }
 
-.restaurant {
-    margin-bottom: 15px;
-    border: 1px solid black;
-    padding: 15px 10px;
-    box-shadow: 1px 1px 1px black;
-}
 
-.ing {
-    border: 1px solid black;
-    padding: 2px 2px;
-    font-size: 0.9em;
-}
-
-.ing-header {
-    font-weight: bold;
+/******************************
+NAVBAR
+*******************************/
+.navbar-link {
+    margin: 0 5px;
 }
