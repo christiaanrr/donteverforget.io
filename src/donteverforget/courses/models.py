@@ -7,20 +7,20 @@ from .utils import unique_slug_generator
 # Course for the term, can input "other" if not school related
 
 class Course(models.Model):
-    name            = models.CharField(max_length = 100)
+    course          = models.CharField(max_length = 100)
     subject         = models.CharField(max_length = 100)
     term            = models.CharField(max_length = 100)
     description     = models.TextField()
     slug            = models.SlugField(null=True, blank=True)
 
     def __str__(self):
-        return self.name
+        return self.course
 
     # Gives course a property of title which returns the name of course
 
     @property
     def title(self):
-        return self.name
+        return self.course
 
 # automatically saves a unique slug for a model entry
 

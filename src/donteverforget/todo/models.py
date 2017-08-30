@@ -8,7 +8,7 @@ import datetime
 class Entry(models.Model):
     title           = models.CharField(max_length = 100)
     course          = models.ForeignKey('courses.Course')
-    due_date        = models.DateField(default = datetime.date.today)
+    due_date        = models.DateTimeField(default = datetime.date.today)
     description     = models.TextField()
     slug            = models.SlugField(null=True, blank=True)
 

@@ -1,6 +1,7 @@
 from django.shortcuts import render
 from .models import Entry
 from django.views.generic import ListView, CreateView, DetailView
+from .forms import EntryCreateForm
 
 # list view that shows to do list
 
@@ -18,3 +19,10 @@ class ToDoDetailView(DetailView):
 
     def get_queryset(self):
         return Entry.objects.all()
+
+# create view in order to create new entries
+
+class ToDoCreateView(CreateView):
+    form_class = EntryCreateForm
+    template_name = 'todo/form.html'
+    success_url = '/todo/'

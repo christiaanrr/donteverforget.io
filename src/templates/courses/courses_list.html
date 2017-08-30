@@ -8,13 +8,16 @@
 <body>
 {% block content %}
     <h1>Course List</h1>
+    <a class="lead" href="{% url 'courses:create' %}">add a new course</a>
     {% for obj in courses_list %}
         <div class="row">
-            <div class="col-sm-12 todo">
+            <div class="col-sm-12 courses">
                 <p class="lead">{{ obj.name }}</p>
                 <p><b>{{ obj.subject }}</b></p>
                 <p>Term: <i>{{ obj.term }}</i></p>
-                <p>Description: {{ obj.description }}<button type="button" class="btn btn-info float-right">Edit</button></p>
+                <p>Description: {{ obj.description }}</p>
+                <p><button type="button" class="btn-sm btn-danger float-right">Delete</button>
+                   <button type="button" class="btn btn-info">Edit</button></p>
             </div>
         </div>
     {% endfor %}

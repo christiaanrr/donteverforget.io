@@ -3,22 +3,26 @@ LAYOUT
 *******************************/
 html,
 body {
+    background: url("../img/green_dust_scratch.png");
     height: 100%;
 }
 .wrapper {
     min-height: 100%;
     height: auto !important;
     /* Negative indent footer by its height */
-    margin: 0 auto -110px;
+    margin: 0 auto -80px;
     /* Pad bottom by footer height */
 }
 
 .wrapper:after {
     content: "";
     display: block;
+    height: 110px;
 }
 
-footer, .wrapper:after {
+footer {
+    background: url("../img/green_dust_scratch.png");
+    border-top: 1px solid black;
     height: 110px;
 }
 
@@ -32,10 +36,21 @@ footer, .wrapper:after {
 
 .todo {
     box-shadow: 2px 2px 1px black;
-    border: 1px solid #cccccc;
+    border: 1px solid black;
     margin-top: 10px;
     margin-bottom: 10px;
     padding: 15px 20px;
+    background: url("../img/wall4.png");
+}
+
+.courses {
+    border: 1px solid black;
+    background-color: yellow;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 15px 20px;
+    box-shadow: 2px 2px 1px black;
+    background: url("../img/old_map.png");
 }
 
 /******************************
