@@ -60,6 +60,14 @@ NAVBAR
     margin: 0 5px;
 }
 
+.back-url a:link,
+.back-url a:hover,
+.back-url a:active {
+    color: inherit;
+    text-decoration: none;
+    list-style: none;
+
+}
 
 
 /******************************

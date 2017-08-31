@@ -6,11 +6,26 @@
     <title>{% block title %}{{ obj.title }}{% endblock %}</title>
 </head>
 <body>
+<!-- use object instead of obj because its a detail view -->
 {% block content %}
-    <h1>To Do</h1>
-    {% for obj in object_list %}
-        {{ obj }}
-    {% endfor %}
+    <b class="back-url"><a href="{% url 'todo:list' %}">back to list</a></b>
+    <div class="row">
+        <div class="col-sm-12 todo">
+            <p class="lead">{{ object }}</p>
+            <p><b>{{ object.course }}</b></p>
+            <p>Due Date: <i>{{ object.due_date }}</i></p>
+            <p>Description: {{ object.description }}</p>
+            <form class="list-inline-item" action = '{% url 'todo:delete' object.slug %}' method = 'post'>
+                {% csrf_token %}
+                <button type="submit" value="Delete" class="btn btn-success">Completed</button>
+            </form>
+            <a href="{% url 'todo:edit' object.slug %}"><button type="button" class="btn btn-warning">Edit</button></a>
+            <form class="float-right" action = '{% url 'todo:delete' object.slug %}' method = 'post'>
+                {% csrf_token %}
+                <button type="submit" class="btn-sm btn-danger" value="Delete">Delete</button>
+            </form>
+        </div>
+    </div>
 {% endblock %}
 </body>
 </html>

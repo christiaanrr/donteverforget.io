@@ -1,6 +1,7 @@
 from django.db import models
 from django.db.models.signals import pre_save
 from .utils import unique_slug_generator
+from django.core.urlresolvers import reverse
 import datetime
 
 # Entry for what user has TO DO
@@ -14,6 +15,9 @@ class Entry(models.Model):
 
     def __str__(self):
         return self.title
+
+    def get_absolute_url(self):
+        return reverse('todo:detail', kwargs={'slug': self.slug})
 
 # automatically saves a unique slug for a model entry
 

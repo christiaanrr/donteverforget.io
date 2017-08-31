@@ -12,13 +12,14 @@
     {% for obj in todo_list %}
         <div class="row">
             <div class="col-sm-12 todo">
-                <p class="lead">{{ obj }}</p>
+                <p class="lead"><a href="{{ obj.get_absolute_url }}">{{ obj }}</a></p>
                 <p><b>{{ obj.course }}</b></p>
                 <p>Due Date: <i>{{ obj.due_date }}</i></p>
                 <p>Description: {{ obj.description }}</p>
-                <p><button type="button" class="btn btn-success">Completed</button>
-                <button type="button" class="btn btn-warning">Edit</button>
-                <button type="button" class="btn-sm btn-danger float-right">Delete</button></p>
+                <form action = '{% url 'todo:delete' obj.slug %}' method = 'post'>
+                    {% csrf_token %}
+                    <p><button type="submit" value="Delete" class="btn btn-success">Completed</button></p>
+                </form>
             </div>
         </div>
     {% endfor %}

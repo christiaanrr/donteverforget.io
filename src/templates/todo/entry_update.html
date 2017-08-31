@@ -1,0 +1,18 @@
+{% extends 'base.html' %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Edit Entry</title>
+</head>
+<body>
+{% block content %}
+    <div class="row">
+        <div class="col-sm-12 todo">
+            <h1>Edit your todo list item: </h1>
+            {% include 'snippets/form-template.html' with form=form %}
+        </div>
+    </div>
+{% endblock %}
+</body>
+</html>

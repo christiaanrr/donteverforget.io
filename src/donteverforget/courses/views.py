@@ -25,5 +25,5 @@ class CoursesDetailView(DetailView):
 
 class CourseCreateView(CreateView):
     form_class = CourseCreateForm
-    template_name = 'courses/form.html'
+    template_name = 'courses/courses_create.html'
     success_url = '/courses/'

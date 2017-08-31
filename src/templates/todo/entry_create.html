@@ -9,8 +9,8 @@
 {% block content %}
     <div class="row">
         <div class="col-sm-12 todo">
-            <h1>Add an item to your todo list:</h1>
-            <p>{% include 'snippets/form-template.html' %}</p>
+            <h1>Add a todo list item: </h1>
+            {% include 'snippets/form-template.html' with form=form %}
         </div>
     </div>
 {% endblock %}
