@@ -1,1 +1,1 @@
-web: gunicorn donteverforget.wsgi
+web: gunicorn src/donteverforget/donteverforget.wsgi
