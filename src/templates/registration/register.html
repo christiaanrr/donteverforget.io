@@ -1,0 +1,26 @@
+{% extends 'base.html' %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{% block title %}Register{% endblock %}</title>
+</head>
+<body>
+{% block content %}
+    <div class="row">
+        <div class='col-sm-12 text-left'>
+            <h1>Register</h1>
+
+            <form method="post" action="{% url 'register' %}">
+                {% csrf_token %}
+                {{ form.as_p }}
+
+                <input type="submit" value="Register" />
+                <input type="hidden" name="next" value="{{ next }}" />
+            </form>
+            <p class="font-weight-bold">Did you need to <a href='{% url "login" %}'>login</a>?
+        </div>
+    </div>
+{%  endblock %}
+</body>
+</html>

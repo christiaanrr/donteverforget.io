@@ -1,12 +1,15 @@
 from django.db import models
-from django.db import models
 from django.db.models.signals import pre_save
 from .utils import unique_slug_generator
+from django.core.urlresolvers import reverse
+from django.conf import settings
 
-# Create your models here.
+User = settings.AUTH_USER_MODEL
+
 # Course for the term, can input "other" if not school related
 
 class Course(models.Model):
+    owner           = models.ForeignKey(User)
     course          = models.CharField(max_length = 100)
     subject         = models.CharField(max_length = 100)
     term            = models.CharField(max_length = 100)
@@ -21,6 +24,9 @@ class Course(models.Model):
     @property
     def title(self):
         return self.course
+
+    def get_absolute_url(self):
+        return reverse('courses:detail', kwargs={'slug': self.slug})
 
 # automatically saves a unique slug for a model entry
 

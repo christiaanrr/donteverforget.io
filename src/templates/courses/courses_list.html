@@ -12,12 +12,10 @@
     {% for obj in courses_list %}
         <div class="row">
             <div class="col-sm-12 courses">
-                <p class="lead">{{ obj.title }}</p>
+                <p class="lead"><a href="{{ obj.get_absolute_url }}">{{ obj.title }}</a></p>
                 <p><b>{{ obj.subject }}</b></p>
                 <p>Term: <i>{{ obj.term }}</i></p>
                 <p>Description: {{ obj.description }}</p>
-                <p><button type="button" class="btn-sm btn-danger float-right">Delete</button>
-                   <button type="button" class="btn btn-info">Edit</button></p>
             </div>
         </div>
     {% endfor %}

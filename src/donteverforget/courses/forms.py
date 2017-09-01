@@ -5,4 +5,9 @@ class CourseCreateForm(forms.ModelForm):
 
     class Meta:
         model = Course
-        exclude = ['slug']
+        fields = [
+            'course',
+            'subject',
+            'term',
+            'description'
+        ]

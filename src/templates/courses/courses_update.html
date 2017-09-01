@@ -3,14 +3,14 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Edit Entry</title>
+    <title>Edit Course</title>
 </head>
 <body>
 {% block content %}
-    <p><a href="{% url 'todo:list' %}">back to todo: {{ object }}</a></p>
+    <p><a href="{% url 'courses:list' %}">back to course: {{ object }}</a></p>
     <div class="row">
-        <div class="col-sm-12 todo">
-            <h1>Edit your todo list item: </h1>
+        <div class="col-sm-12 courses">
+            <h1>Edit your course: </h1>
             {% include 'snippets/form-template.html' with form=form %}
         </div>
     </div>
