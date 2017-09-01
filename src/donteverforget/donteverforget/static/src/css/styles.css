@@ -10,20 +10,20 @@ body {
     min-height: 100%;
     height: auto !important;
     /* Negative indent footer by its height */
-    margin: 0 auto -110px;
+    margin: 0 auto;
     /* Pad bottom by footer height */
 }
 
 .wrapper:after {
     content: "";
     display: block;
-    height: 110px;
+    height: 100%;
 }
 
 footer {
     background: url("../img/green_dust_scratch.png");
     border-top: 1px solid black;
-    height: 110px;
+    height: 80px;
 }
 
 .nav-bar {
@@ -58,10 +58,11 @@ footer {
     height: 610px;
     background: url('../img/hammy.gif') no-repeat;
     background-position-x: center;
+    margin-bottom: 50px;
 }
 
 .hammy {
-    margin-top: -190px;
+    margin-top: -140px;
 }
 
 .welcome-header {
@@ -87,6 +88,31 @@ NAVBAR
 /******************************
 MEDIA QUERIES
 *******************************/
+
+@media (max-width: 576px) {
+
+    .dontforget {
+        width: 100%;
+        height: 610px;
+        background: url('../img/hammy.gif') no-repeat;
+        background-position-x: center;
+        background-size: 350px 500px;
+        margin-bottom: 0;
+    }
+
+    .hammy {
+    margin-top: -90px;
+    }
+
+    .wrapper {
+    min-height: 100%;
+    height: auto !important;
+    /* Negative indent footer by its height */
+    margin-bottom: 50px;
+    /* Pad bottom by footer height */
+}
+
+}
 
 @media (max-width: 320px) {
     .nav-header {

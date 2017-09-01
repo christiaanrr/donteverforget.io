@@ -16,3 +16,6 @@ class EntryCreateForm(forms.ModelForm):
             'due_date',
             'description'
         ]
+        widgets = {
+            'description': forms.Textarea(attrs={'rows': 4, 'cols': 25}),
+        }
