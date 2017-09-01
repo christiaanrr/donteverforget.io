@@ -7,27 +7,45 @@
 </head>
 <body>
 {% block content %}
-    <div class="row">
-        <div class="col-sm-6 text-center offset-sm-3">
-            <h1 class="welcome-header"><em>Welcome!</em></h1>
-            <p>dontforget.io is dedicated to serve as your personal to-do list application. As a college student,
-            I was fed up with all the deadlines and projects I had to do. Often, I would forget what I had to because
-            of all the assignments that were being given to me.</p>
-            <p>No worries, dontforget.io will solve all your problems. You can easily add the courses you are taking
-            and add a todo list item for that course. As long as you put a due date for that todo list item,
-            dontforget.io will send you a text three hours prior to your todo item being due!</p>
+    {% if request.user.is_authenticated %}
+        <div class="row">
+            <div class="col-sm-6 text-center offset-sm-3">
+                <h1 class="welcome-header"><em>Welcome!</em></h1>
+                <p>dontforget.io is dedicated to serve as your personal to-do list application. As a college student,
+                    I was fed up with all the deadlines and projects I had to do. Often, I would forget what I had to because
+                    of all the assignments that were being given to me.</p>
+                <p>No worries, dontforget.io will solve all your problems. You can easily add the courses you are taking
+                    and add a todo list item for that course. As long as you put a due date for that todo list item,
+                    dontforget.io will send you a text three hours prior to your todo item being due!</p>
+            </div>
         </div>
-    </div>
-    <hr />
-    <div class="row">
-        <div class="col-sm-6 text-center offset-sm-3">
-            <p><a href="{% url 'login' %}" title="log in"><button type="button" class="btn btn-primary btn-sm">login</button></a>
-            <a href="{% url 'register'%}" title="sign up"><button type="button" class="btn btn-primary btn-sm">sign up</button></a></p>
-        </div>
-    </div>
-    <div class="row hammy">
+        <hr />
+        <div class="row hammy">
             <div class="dontforget img-fluid"></div>
-    </div>
+        </div>
+    {% else %}
+        <div class="row">
+            <div class="col-sm-6 text-center offset-sm-3">
+                <h1 class="welcome-header"><em>Welcome!</em></h1>
+                <p>dontforget.io is dedicated to serve as your personal to-do list application. As a college student,
+                    I was fed up with all the deadlines and projects I had to do. Often, I would forget what I had to because
+                    of all the assignments that were being given to me.</p>
+                <p>No worries, dontforget.io will solve all your problems. You can easily add the courses you are taking
+                    and add a todo list item for that course. As long as you put a due date for that todo list item,
+                    dontforget.io will send you a text three hours prior to your todo item being due!</p>
+            </div>
+        </div>
+        <hr />
+        <div class="row">
+            <div class="col-sm-6 text-center offset-sm-3">
+                <p><a href="{% url 'login' %}" title="log in"><button type="button" class="btn btn-primary btn-sm">login</button></a>
+                    <a href="{% url 'register'%}" title="sign up"><button type="button" class="btn btn-primary btn-sm">sign up</button></a></p>
+            </div>
+        </div>
+        <div class="row hammy">
+            <div class="dontforget img-fluid"></div>
+        </div>
+    {% endif %}
 {% endblock %}
 </body>
 </html>
