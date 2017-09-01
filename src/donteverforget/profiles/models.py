@@ -23,7 +23,7 @@ class Profile(models.Model):
             self.activation_key = code_generator()  # key generator
             self.save()
             path_ = reverse('activate', kwargs={"code": self.activation_key})
-            full_path = "https://dontforget.io" + path_
+            full_path = "https://donteverforget.herokuapp.com/" + path_
             subject = 'Activate Account'
             from_email = settings.DEFAULT_FROM_EMAIL
             message = 'Activate your account here: {}'.format(full_path)
