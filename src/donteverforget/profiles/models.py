@@ -28,7 +28,10 @@ class Profile(models.Model):
             from_email = settings.DEFAULT_FROM_EMAIL
             message = 'Activate your account here: {}'.format(full_path)
             recipient_list = [self.user.email]
-            html_message = '<p>Activate your account here: {}</p>'.format(full_path)
+            html_message = '<h1>Thank you for joining dontforget.io!</h1>' \
+                           '<p>I hope you never forget to do something that you were supposed to do!' \
+                           'Please remember to activate your account in order to use the website!</p>' \
+                           '<p>Activate your account here: {}</p>'.format(full_path)
             print(html_message)
             sent_mail = send_mail(
                 subject,
