@@ -69,10 +69,10 @@
         </entry>
       </file>
       <file leaf-file-name="Procfile" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Procfile">
+        <entry file="file://$PROJECT_DIR$/src/donteverforget/Procfile">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
-              <caret line="0" column="19" lean-forward="true" selection-start-line="0" selection-start-column="19" selection-end-line="0" selection-end-column="19" />
+              <caret line="0" column="14" lean-forward="false" selection-start-line="0" selection-start-column="14" selection-end-line="0" selection-end-column="14" />
               <folding />
             </state>
           </provider>
@@ -152,6 +152,7 @@
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/src/donteverforget/donteverforget/settings/production.py" />
         <option value="$PROJECT_DIR$/src/donteverforget/donteverforget/settings/local2.py" />
+        <option value="$PROJECT_DIR$/src/donteverforget/Procfile" />
       </list>
     </option>
   </component>
@@ -208,55 +209,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="donteverforget" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="donteverforget" type="b2602c69:ProjectViewProjectNode" />
-              <item name="donteverforget" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="donteverforget" type="462c0819:PsiDirectoryNode" />
-              <item name="donteverforget" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="donteverforget" type="b2602c69:ProjectViewProjectNode" />
-              <item name="donteverforget" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="donteverforget" type="462c0819:PsiDirectoryNode" />
-              <item name="donteverforget" type="462c0819:PsiDirectoryNode" />
-              <item name="settings" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="donteverforget" type="b2602c69:ProjectViewProjectNode" />
-              <item name="donteverforget" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="donteverforget" type="462c0819:PsiDirectoryNode" />
-              <item name="profiles" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="donteverforget" type="b2602c69:ProjectViewProjectNode" />
-              <item name="donteverforget" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="donteverforget" type="462c0819:PsiDirectoryNode" />
-              <item name="todo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="donteverforget" type="b2602c69:ProjectViewProjectNode" />
-              <item name="donteverforget" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="donteverforget" type="b2602c69:ProjectViewProjectNode" />
-              <item name="donteverforget" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="registration" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="donteverforget" type="b2602c69:ProjectViewProjectNode" />
-              <item name="donteverforget" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="snippets" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -272,17 +224,18 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/donteverforget" />
+      <recent name="$PROJECT_DIR$/src/templates/courses" />
+      <recent name="$PROJECT_DIR$/src/donteverforget/donteverforget" />
+      <recent name="$PROJECT_DIR$/src/donteverforget/settings" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/donteverforget/profiles" />
       <recent name="$PROJECT_DIR$/src/donteverforget/donteverforget/static/src/img" />
       <recent name="$PROJECT_DIR$/src/templates/courses" />
       <recent name="$PROJECT_DIR$/src/donteverforget/todo" />
       <recent name="$PROJECT_DIR$/src/templates" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/templates/courses" />
-      <recent name="$PROJECT_DIR$/src/donteverforget/donteverforget" />
-      <recent name="$PROJECT_DIR$/src/donteverforget/settings" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -726,10 +679,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Procfile">
+    <entry file="file://$PROJECT_DIR$/src/donteverforget/Procfile">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="19" lean-forward="true" selection-start-line="0" selection-start-column="19" selection-end-line="0" selection-end-column="19" />
+          <caret line="0" column="14" lean-forward="false" selection-start-line="0" selection-start-column="14" selection-end-line="0" selection-end-column="14" />
           <folding />
         </state>
       </provider>
