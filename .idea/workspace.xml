@@ -2,7 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dfda9019-95b2-4769-9401-bbb6b3dc6da4" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Procfile" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/donteverforget/Procfile" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/templates/base.html" afterPath="$PROJECT_DIR$/src/donteverforget/templates/base.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/templates/courses/courses_create.html" afterPath="$PROJECT_DIR$/src/donteverforget/templates/courses/courses_create.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/templates/courses/courses_detail.html" afterPath="$PROJECT_DIR$/src/donteverforget/templates/courses/courses_detail.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/templates/courses/courses_list.html" afterPath="$PROJECT_DIR$/src/donteverforget/templates/courses/courses_list.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/templates/courses/courses_update.html" afterPath="$PROJECT_DIR$/src/donteverforget/templates/courses/courses_update.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/templates/home.html" afterPath="$PROJECT_DIR$/src/donteverforget/templates/home.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/templates/registration/login.html" afterPath="$PROJECT_DIR$/src/donteverforget/templates/registration/login.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/templates/registration/register.html" afterPath="$PROJECT_DIR$/src/donteverforget/templates/registration/register.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/templates/snippets/footer.html" afterPath="$PROJECT_DIR$/src/donteverforget/templates/snippets/footer.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/templates/snippets/form-template.html" afterPath="$PROJECT_DIR$/src/donteverforget/templates/snippets/form-template.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/templates/snippets/nav.html" afterPath="$PROJECT_DIR$/src/donteverforget/templates/snippets/nav.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/templates/todo/entry_create.html" afterPath="$PROJECT_DIR$/src/donteverforget/templates/todo/entry_create.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/templates/todo/entry_detail.html" afterPath="$PROJECT_DIR$/src/donteverforget/templates/todo/entry_detail.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/templates/todo/entry_list.html" afterPath="$PROJECT_DIR$/src/donteverforget/templates/todo/entry_list.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/templates/todo/entry_update.html" afterPath="$PROJECT_DIR$/src/donteverforget/templates/todo/entry_update.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/donteverforget/donteverforget/settings/base.py" afterPath="$PROJECT_DIR$/src/donteverforget/donteverforget/settings/base.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/donteverforget/donteverforget/settings/local2.py" afterPath="$PROJECT_DIR$/src/donteverforget/donteverforget/settings/local2.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/donteverforget/donteverforget/settings/production.py" afterPath="$PROJECT_DIR$/src/donteverforget/donteverforget/settings/production.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -19,30 +39,10 @@
       <file leaf-file-name="production.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/donteverforget/donteverforget/settings/production.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
-              <caret line="99" column="21" lean-forward="false" selection-start-line="99" selection-start-column="21" selection-end-line="99" selection-end-column="21" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="wsgi.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/donteverforget/donteverforget/wsgi.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="__init__.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/donteverforget/donteverforget/settings/__init__.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="7" column="7" lean-forward="true" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
+            <state relative-caret-position="344">
+              <caret line="38" column="47" lean-forward="false" selection-start-line="38" selection-start-column="47" selection-end-line="38" selection-end-column="47" />
               <folding>
-                <element signature="e#0#19#0" expanded="true" />
+                <element signature="e#318#327#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -51,29 +51,11 @@
       <file leaf-file-name="base.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/donteverforget/donteverforget/settings/base.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2016">
-              <caret line="136" column="0" lean-forward="false" selection-start-line="136" selection-start-column="0" selection-end-line="138" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="18">
-              <caret line="1" column="49" lean-forward="false" selection-start-line="1" selection-start-column="49" selection-end-line="1" selection-end-column="49" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Procfile" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/donteverforget/Procfile">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="14" lean-forward="false" selection-start-line="0" selection-start-column="14" selection-end-line="0" selection-end-column="14" />
-              <folding />
+            <state relative-caret-position="344">
+              <caret line="20" column="11" lean-forward="true" selection-start-line="20" selection-start-column="11" selection-end-line="20" selection-end-column="11" />
+              <folding>
+                <element signature="e#318#327#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -81,9 +63,43 @@
       <file leaf-file-name="local2.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/donteverforget/donteverforget/settings/local2.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="506">
-              <caret line="39" column="17" lean-forward="false" selection-start-line="39" selection-start-column="17" selection-end-line="39" selection-end-column="17" />
+            <state relative-caret-position="234">
+              <caret line="13" column="37" lean-forward="false" selection-start-line="13" selection-start-column="37" selection-end-line="13" selection-end-column="37" />
+              <folding>
+                <element signature="e#318#327#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="utils.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/donteverforget/donteverforget/aws/utils.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="72">
+              <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="base.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/donteverforget/templates/base.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="162">
+              <caret line="9" column="67" lean-forward="false" selection-start-line="9" selection-start-column="67" selection-end-line="9" selection-end-column="67" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="conf.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/donteverforget/donteverforget/aws/conf.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="126">
+              <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#15#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -104,10 +120,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/donteverforget/settings/__init__.py" />
-        <option value="$PROJECT_DIR$/src/donteverforget/donteverforget/settings.py" />
-        <option value="$PROJECT_DIR$/src/donteverforget/settings/local.py" />
-        <option value="$PROJECT_DIR$/src/donteverforget/settings/production.py" />
         <option value="$PROJECT_DIR$/src/donteverforget/settings/base.py" />
         <option value="$PROJECT_DIR$/src/templates/todo/todo_list.html" />
         <option value="$PROJECT_DIR$/src/templates/base.html" />
@@ -147,12 +159,18 @@
         <option value="$PROJECT_DIR$/src/donteverforget/donteverforget/settings/secret.py" />
         <option value="$PROJECT_DIR$/src/donteverforget/profiles/models.py" />
         <option value="$PROJECT_DIR$/src/templates/registration/register.html" />
-        <option value="$PROJECT_DIR$/src/donteverforget/donteverforget/settings/base.py" />
         <option value="$PROJECT_DIR$/src/donteverforget/donteverforget/settings/__init__.py" />
         <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/src/donteverforget/donteverforget/settings/production.py" />
-        <option value="$PROJECT_DIR$/src/donteverforget/donteverforget/settings/local2.py" />
         <option value="$PROJECT_DIR$/src/donteverforget/Procfile" />
+        <option value="$PROJECT_DIR$/src/donteverforget/.gitignore" />
+        <option value="$PROJECT_DIR$/src/donteverforget/donteverforget/settings/aws/utils.py" />
+        <option value="$PROJECT_DIR$/src/donteverforget/donteverforget/settings/aws/conf.py" />
+        <option value="$PROJECT_DIR$/src/donteverforget/donteverforget/settings/local2.py" />
+        <option value="$PROJECT_DIR$/src/donteverforget/donteverforget/aws/utils.py" />
+        <option value="$PROJECT_DIR$/src/donteverforget/donteverforget/settings/storage_backends.py" />
+        <option value="$PROJECT_DIR$/src/donteverforget/donteverforget/aws/conf.py" />
+        <option value="$PROJECT_DIR$/src/donteverforget/donteverforget/settings/base.py" />
+        <option value="$PROJECT_DIR$/src/donteverforget/donteverforget/settings/production.py" />
       </list>
     </option>
   </component>
@@ -209,6 +227,36 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="donteverforget" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="donteverforget" type="b2602c69:ProjectViewProjectNode" />
+              <item name="donteverforget" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="donteverforget" type="462c0819:PsiDirectoryNode" />
+              <item name="donteverforget" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="donteverforget" type="b2602c69:ProjectViewProjectNode" />
+              <item name="donteverforget" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="donteverforget" type="462c0819:PsiDirectoryNode" />
+              <item name="donteverforget" type="462c0819:PsiDirectoryNode" />
+              <item name="aws" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="donteverforget" type="b2602c69:ProjectViewProjectNode" />
+              <item name="donteverforget" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="donteverforget" type="462c0819:PsiDirectoryNode" />
+              <item name="donteverforget" type="462c0819:PsiDirectoryNode" />
+              <item name="settings" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="donteverforget" type="b2602c69:ProjectViewProjectNode" />
+              <item name="donteverforget" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="donteverforget" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -218,16 +266,16 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/donteverforget/donteverforget/settings/base.py" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.django.DjangoModulesConfigurable" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/donteverforget/donteverforget" />
       <recent name="$PROJECT_DIR$/src/donteverforget" />
       <recent name="$PROJECT_DIR$/src/templates/courses" />
-      <recent name="$PROJECT_DIR$/src/donteverforget/donteverforget" />
       <recent name="$PROJECT_DIR$/src/donteverforget/settings" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
@@ -271,7 +319,7 @@
     <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32996634" sideWeight="0.5033557" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -281,7 +329,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="manage.py@donteverforget" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32996634" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="manage.py@donteverforget" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32996634" sideWeight="0.4966443" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -295,6 +343,9 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.gitignore" />
+  </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
@@ -305,38 +356,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/donteverforget/todo/admin.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="1" column="33" lean-forward="false" selection-start-line="1" selection-start-column="33" selection-end-line="1" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/donteverforget/donteverforget/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-          <folding>
-            <element signature="e#648#689#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/donteverforget/donteverforget/settings/base.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/donteverforget/donteverforget/static/src/js/jquery.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/donteverforget/todo/migrations/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -359,28 +378,28 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/templates/todo/entry_delete.html" />
-    <entry file="file://$PROJECT_DIR$/src/templates/courses/courses_detail.html">
+    <entry file="file://$PROJECT_DIR$/src/donteverforget/templates/courses/courses_detail.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="288">
           <caret line="16" column="41" lean-forward="false" selection-start-line="16" selection-start-column="41" selection-end-line="16" selection-end-column="41" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/templates/courses/courses_create.html">
+    <entry file="file://$PROJECT_DIR$/src/donteverforget/templates/courses/courses_create.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
           <caret line="11" column="21" lean-forward="false" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/templates/todo/entry_update.html">
+    <entry file="file://$PROJECT_DIR$/src/donteverforget/templates/todo/entry_update.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
           <caret line="9" column="4" lean-forward="true" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="73" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/templates/todo/entry_detail.html">
+    <entry file="file://$PROJECT_DIR$/src/donteverforget/templates/todo/entry_detail.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="74">
           <caret line="10" column="75" lean-forward="false" selection-start-line="10" selection-start-column="75" selection-end-line="10" selection-end-column="75" />
@@ -392,21 +411,21 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/templates/courses/courses_update.html">
+    <entry file="file://$PROJECT_DIR$/src/donteverforget/templates/courses/courses_update.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
           <caret line="9" column="67" lean-forward="false" selection-start-line="9" selection-start-column="67" selection-end-line="9" selection-end-column="67" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/templates/snippets/footer.html">
+    <entry file="file://$PROJECT_DIR$/src/donteverforget/templates/snippets/footer.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
           <caret line="8" column="25" lean-forward="true" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/templates/registration/login.html">
+    <entry file="file://$PROJECT_DIR$/src/donteverforget/templates/registration/login.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="344">
           <caret line="34" column="42" lean-forward="false" selection-start-line="34" selection-start-column="42" selection-end-line="34" selection-end-column="42" />
@@ -486,14 +505,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/templates/snippets/nav.html">
+    <entry file="file://$PROJECT_DIR$/src/donteverforget/templates/snippets/nav.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="54">
           <caret line="3" column="12" lean-forward="false" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="50" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/templates/courses/courses_list.html">
+    <entry file="file://$PROJECT_DIR$/src/donteverforget/templates/courses/courses_list.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="17" column="57" lean-forward="false" selection-start-line="17" selection-start-column="57" selection-end-line="17" selection-end-column="57" />
@@ -501,7 +520,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/templates/todo/entry_list.html">
+    <entry file="file://$PROJECT_DIR$/src/donteverforget/templates/todo/entry_list.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
           <caret line="12" column="32" lean-forward="false" selection-start-line="12" selection-start-column="32" selection-end-line="12" selection-end-column="32" />
@@ -509,18 +528,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/templates/todo/entry_create.html">
+    <entry file="file://$PROJECT_DIR$/src/donteverforget/templates/todo/entry_create.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="21" lean-forward="false" selection-start-line="0" selection-start-column="21" selection-end-line="0" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/templates/base.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="9" column="67" lean-forward="false" selection-start-line="9" selection-start-column="67" selection-end-line="9" selection-end-column="67" />
           <folding />
         </state>
       </provider>
@@ -541,7 +552,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/templates/home.html">
+    <entry file="file://$PROJECT_DIR$/src/donteverforget/templates/home.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="17" column="107" lean-forward="false" selection-start-line="17" selection-start-column="107" selection-end-line="17" selection-end-column="107" />
@@ -605,7 +616,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/templates/snippets/form-template.html">
+    <entry file="file://$PROJECT_DIR$/src/donteverforget/templates/snippets/form-template.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="33" lean-forward="false" selection-start-line="0" selection-start-column="33" selection-end-line="0" selection-end-column="33" />
@@ -613,7 +624,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/templates/registration/register.html">
+    <entry file="file://$PROJECT_DIR$/src/donteverforget/templates/registration/register.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="252">
           <caret line="14" column="16" lean-forward="false" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
@@ -631,43 +642,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1229">
+          <caret line="16" column="13" lean-forward="false" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/donteverforget/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="18">
-          <caret line="1" column="49" lean-forward="false" selection-start-line="1" selection-start-column="49" selection-end-line="1" selection-end-column="49" />
+          <caret line="1" column="30" lean-forward="false" selection-start-line="1" selection-start-column="30" selection-end-line="1" selection-end-column="30" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/donteverforget/donteverforget/settings/local2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="506">
-          <caret line="39" column="17" lean-forward="false" selection-start-line="39" selection-start-column="17" selection-end-line="39" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/donteverforget/donteverforget/settings/base.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2016">
-          <caret line="136" column="0" lean-forward="false" selection-start-line="136" selection-start-column="0" selection-end-line="138" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/donteverforget/donteverforget/settings/production.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="99" column="21" lean-forward="false" selection-start-line="99" selection-start-column="21" selection-end-line="99" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/donteverforget/donteverforget/settings/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="7" column="7" lean-forward="true" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -679,11 +664,85 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/donteverforget/donteverforget/settings/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="7" column="7" lean-forward="false" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
+          <folding>
+            <element signature="e#0#19#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/donteverforget/templates/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="9" column="67" lean-forward="false" selection-start-line="9" selection-start-column="67" selection-end-line="9" selection-end-column="67" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/donteverforget/donteverforget/settings/storage_backends.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="4" column="26" lean-forward="false" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/donteverforget/donteverforget/aws/utils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/donteverforget/donteverforget/settings/local2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="13" column="37" lean-forward="false" selection-start-line="13" selection-start-column="37" selection-end-line="13" selection-end-column="37" />
+          <folding>
+            <element signature="e#318#327#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/donteverforget/Procfile">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="14" lean-forward="false" selection-start-line="0" selection-start-column="14" selection-end-line="0" selection-end-column="14" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/donteverforget/donteverforget/settings/base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="344">
+          <caret line="20" column="11" lean-forward="true" selection-start-line="20" selection-start-column="11" selection-end-line="20" selection-end-column="11" />
+          <folding>
+            <element signature="e#318#327#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/donteverforget/donteverforget/settings/production.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="344">
+          <caret line="38" column="47" lean-forward="false" selection-start-line="38" selection-start-column="47" selection-end-line="38" selection-end-column="47" />
+          <folding>
+            <element signature="e#318#327#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/donteverforget/donteverforget/aws/conf.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

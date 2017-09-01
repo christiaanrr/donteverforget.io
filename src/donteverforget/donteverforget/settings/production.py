@@ -11,6 +11,7 @@ https://docs.djangoproject.com/en/1.11/ref/settings/
 """
 
 import os
+from donteverforget.aws.conf import *
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
@@ -28,14 +29,14 @@ DEBUG = False
 ALLOWED_HOSTS = ['donteverforget.herokuapp.com', '.donteverforget.io']
 
 EMAIL_HOST = 'smtp.gmail.com'
-EMAIL_HOST_USER = 'youremail@gmail.com'
+EMAIL_HOST_USER = 'donteverforgetio@gmail.com'
 EMAIL_HOST_PASSWORD = os.environ.get('EMAIL_HOST_PASSWORD')
 EMAIL_PORT = 587
 EMAIL_USE_TLS = True
-DEFAULT_FROM_EMAIL = 'your name <youremail@email.com>'
+DEFAULT_FROM_EMAIL = 'Christian Rodriguez <donteverforgetio@gmail.com>'
 
 ADMINS = (
-    ('You', 'you@email.com'),
+    ('Christian Rodriguez', 'donteverforgetio@gmail.com'),
 )
 MANAGERS = ADMINS
 
@@ -51,6 +52,7 @@ INSTALLED_APPS = [
     'todo',
     'courses',
     'profiles',
+    'storages',
 ]
 
 MIDDLEWARE = [
@@ -68,7 +70,7 @@ ROOT_URLCONF = 'donteverforget.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [os.path.join(BASE_DIR, '../templates')],
+        'DIRS': [os.path.join(BASE_DIR, 'templates')],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -137,9 +139,7 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/1.11/howto/static-files/
 
 STATIC_URL = '/static/'
-STATICFILES_DIRS = (
-    os.path.join(BASE_DIR, 'donteverforget/static'),
-)
+STATIC_ROOT = os.path.join(BASE_DIR, 'static')
 
 CORS_REPLACE_HTTPS_REFERER      = True
 HOST_SCHEME                     = "https://"

@@ -1,0 +1,121 @@
+/******************************
+LAYOUT
+*******************************/
+html,
+body {
+    background: url("../img/green_dust_scratch.d84296272f89.png");
+    height: 100%;
+}
+.wrapper {
+    min-height: 100%;
+    height: auto !important;
+    /* Negative indent footer by its height */
+    margin: 0 auto;
+    /* Pad bottom by footer height */
+}
+
+.wrapper:after {
+    content: "";
+    display: block;
+    height: 100%;
+}
+
+footer {
+    background: url("../img/green_dust_scratch.d84296272f89.png");
+    border-top: 1px solid black;
+    height: 80px;
+}
+
+.nav-bar {
+    margin-top: 30px;
+}
+
+.main-content {
+    margin-top: 20px;
+}
+
+.todo {
+    box-shadow: 2px 2px 1px black;
+    border: 1px solid black;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 15px 20px;
+    background: url("../img/wall4.9e56ce2e4042.png");
+}
+
+.courses {
+    border: 1px solid black;
+    background-color: yellow;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 15px 20px;
+    box-shadow: 2px 2px 1px black;
+    background: url("../img/old_map.6000caf22dfb.png");
+}
+
+.dontforget {
+    width: 100%;
+    height: 610px;
+    background: url("../img/hammy.ea9e878aa7bb.gif") no-repeat;
+    background-position-x: center;
+    margin-bottom: 50px;
+}
+
+.hammy {
+    margin-top: -140px;
+}
+
+.welcome-header {
+    margin-top: -20px;
+}
+
+/******************************
+NAVBAR
+*******************************/
+.navbar-link {
+    margin: 0 5px;
+}
+
+.back-url a:link,
+.back-url a:hover,
+.back-url a:active {
+    color: inherit;
+    text-decoration: none;
+    list-style: none;
+}
+
+
+/******************************
+MEDIA QUERIES
+*******************************/
+
+@media (max-width: 576px) {
+
+    .dontforget {
+        width: 100%;
+        height: 610px;
+        background: url("../img/hammy.ea9e878aa7bb.gif") no-repeat;
+        background-position-x: center;
+        background-size: 350px 500px;
+        margin-bottom: 0;
+    }
+
+    .hammy {
+    margin-top: -90px;
+    }
+
+    .wrapper {
+    min-height: 100%;
+    height: auto !important;
+    /* Negative indent footer by its height */
+    margin-bottom: 50px;
+    /* Pad bottom by footer height */
+}
+
+}
+
+@media (max-width: 320px) {
+    .nav-header {
+        font-size: 2.2em;
+    }
+}
