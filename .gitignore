@@ -1,4 +1,5 @@
 src/donteverforget/donteverforget/settings/local.py
+src/donteverforget/donteverforget/settings/local2.py
 db.sqlite3
 
 .py[cod]
